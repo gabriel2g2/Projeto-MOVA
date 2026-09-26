@@ -14,6 +14,7 @@
 .portfolio-stage{--stage-bg:#211b19;--stage-ink:#f1e8df;--stage-muted:#c1b2a5;--stage-accent:#d8a982;--stage-line:rgba(241,232,223,.2);background-color:var(--stage-bg);color:var(--stage-ink);transition:background-color .35s ease,color .35s ease}.portfolio-stage[data-theme="serena"]{--stage-bg:#1e1a17;--stage-ink:#f0e6da;--stage-muted:#c5b8aa;--stage-accent:#d2b18b;--stage-line:rgba(240,230,218,.2)}.portfolio-stage .portfolio-filter{color:var(--stage-ink)}.portfolio-stage .portfolio-filter:hover,.portfolio-stage .portfolio-filter.is-active{border-color:var(--stage-accent);background:var(--stage-accent);color:#211915}.portfolio-stage .portfolio-filter span{color:var(--stage-accent)}.portfolio-stage .portfolio-filter.is-active span{color:#211915}
 /* Paleta escura aplicada ao site todo para um visual mais elegante. */
 :root{--cream:#171412;--cream-deep:#201b18;--text:#f0e9e2;--muted:#b7aaa0;--line:#51443c;--copper-dark:#d39a78;--copper:#d99a76}
+.site-nav{position:sticky;top:0;z-index:1030;background:rgba(23,20,18,.97)}
 body{background:var(--cream);color:var(--text)}
 .about,.work{background:var(--cream)}
 .services,.people{background:var(--cream-deep)}
